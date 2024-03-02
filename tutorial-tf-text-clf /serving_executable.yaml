@@ -17,9 +17,9 @@ spec:
   template:
     apiVersion: "serving.kserve.io/v1beta1"
     metadata:
-      labels: |
-        ai.sap.com/resourcePlan: infer.s
-    spec: |
+      labels: 
+        ai.sap.com/resourcePlan: infer.l
+    spec: 
       predictor:
         imagePullSecrets:
           - name: rds-doc-secret
